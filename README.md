@@ -104,6 +104,15 @@ argument (-m) to determine the number of hash tables. It also has a
 flag (-R) to determine whether the assignment of bits to the
 substrings should be optimized.
 
+##### OpenMP
+
+To experiment the efficiency of the parallelized version, please specify a number of threads to use with:
+```
+export OMP_NUM_THREADS=x
+```
+
+You can look at the debug statements to see the values returned by `omp_get_wtime`
+
 ### FAQs
 
 Q: I have tried your code with some of my datasets. It works well when
