@@ -134,6 +134,6 @@ please refer to license.txt file.
 ### TODO
 
 - Automatic suggestion for the m parameter.
-- Multi-core functionality.
 - Improve SparseHashtable insertion speed. It is currently very slow,
 but can be improved in different ways.
+- Parallelize using CUDA
