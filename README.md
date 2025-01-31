@@ -108,7 +108,7 @@ To experiment the efficiency of the parallelized version, please specify a numbe
 export OMP_NUM_THREADS=x
 ```
 
-You can look at the debug statements to see the values returned by `omp_get_wtime`
+You can look at the debug statements to see the values returned by `omp_get_wtime` to compare the timings between the serial version and the parallel one
 
 ### FAQs
 
