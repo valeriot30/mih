@@ -1,12 +1,8 @@
 Multi Index Hashing (MIH)
 =======
 
-An implementation of *"Fast Exact Search in Hamming Space with
-Multi-Index Hashing, M. Norouzi, A. Punjani, D. J. Fleet, IEEE TPAMI
-2014"*. See http://www.cs.toronto.edu/~norouzi/research/mih/ but using parallel programming (OpenMP)
-
-This algorithm performs fast exact nearest neighbor search in Hamming
-distance on binary codes. Using this code, one can re-run the
+This algorithm performs fast (parallel) exact nearest neighbor search in Hamming
+distance on binary codes using OpenMP. Using this code, one can re-run the
 experiments described in the paper. For best results, consider using
 *libhugetlbfs* with multi-index hashing.
 
