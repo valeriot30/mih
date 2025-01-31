@@ -1,6 +1,7 @@
 Multi Index Hashing (MIH)
 =======
 
+I have attempted to optimize the multi-index hashing search algorithm using parallel computing with OpenMP for my bachelor's thesis.
 This algorithm performs fast (parallel) exact nearest neighbor search in Hamming
 distance on binary codes using OpenMP. Using this code, one can re-run the
 experiments described in the paper. For best results, consider using
